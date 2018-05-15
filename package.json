@@ -1,0 +1,29 @@
+{
+  "name": "sass-me",
+  "version": "1.0.0",
+  "description": "This is a case at KEA",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.9.0",
+    "npm": "^6.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "do-sass": "node-sass css/style.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zettir/sassme.git"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "git"
+  ],
+  "author": "Niels Gerdes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zettir/sassme/issues"
+  },
+  "homepage": "https://github.com/Zettir/sassme#readme"
+}

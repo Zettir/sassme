@@ -1,0 +1,59 @@
+$color-yellow: #d3a91f;
+$color-gray: #797979;
+$color-black: #000;
+
+html, body, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: $color-yellow;
+}
+
+ul {
+  list-style: none;
+
+  li {
+    margin: 0;
+    display: inline;
+
+    a {
+      text-decoration: none;
+      color: $color-yellow;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  background: $color-yellow;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+div {
+  background: $color-gray;
+  padding: 5px;
+}
+
+.myContainers {
+  @extend div;
+  color: $color-black;
+}
+
+footer {
+  @extend div;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=css/style.css.map */
